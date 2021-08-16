@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import sqrt,exp
 
-img = cv2.imread('football.jpg',0)
+img = cv2.imread(' ',0)  #insert path-to-imagefile
 
 def distance(point1, point2):
   return sqrt(((point1[0]-point2[0])**2)+((point1[1]-point2[1])**2))
